@@ -10,5 +10,5 @@ A solução original do problema foi disponibilizada pelo professor Ivanovitch e
 Está é a minha solução modificada da solução original acima, ela resultou em uma redução de complexida para O(n) [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week3/Project_week_03.ipynb) 
 
 ## Referências
--Dataquest.io
+-Dataquest.io</p>
 -Repositório Professort Ivanovitch
