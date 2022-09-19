@@ -11,4 +11,4 @@ Está é a minha solução modificada da solução original acima, ela resultou 
 
 ## Referências
 -Dataquest.io</p>
--Repositório Professort Ivanovitch
+-Repositório Professor Ivanovitch
