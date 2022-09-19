@@ -8,7 +8,7 @@ Neste projeto temos como objetivo fazer uma análise de um conjunto de dados e a
 A solução original do problema foi disponibilizada pelo Dataquest em seu repositório e pode ser acessada a partir de: https://github.com/dataquestio/solutions/blob/master/Mission350Solutions.ipynb 
 
 ## Solução OOP
-Está é a minha solução baseada na solução original acima, ela foi midificada com o objetivo de usarmos as classes de OOP como método de aprendizado, o notebook contento a solução pode ser acessado a partir de: 
+Está é a minha solução baseada na solução original acima, ela foi midificada com o objetivo de usarmos as classes de OOP como método de aprendizado, o notebook contento a solução pode ser acessado a partir de: https://github.com/TeophiloVitor/data_structure2/blob/main/week2/Project_week02.ipynb
 
 ## Referências
 -Dataquest.io (https://www.dataquest.io/course/python-fundamentals-de-ii/)
