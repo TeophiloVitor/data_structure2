@@ -16,10 +16,10 @@ A solução original a ser adaptada para o Dataset da Kaggle foi disponibilizada
 O Dataset Kaggle está disponível aqui: https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset
 
 ## Solução do grupo 
-Nossa solução foi baseada na modificação da classe, a qual chamamos de Schedule e nela definimos as funções para retornar as informações da mensagem por ID, retornar mensagens pelos valores de sentimento entre os limites e retornar duas mensagens cuja soma de pontuação é igual a um dado parâmetro, caso contrário retornar -1. A solução podes ser acessada a partir de[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)]() 
+Nossa solução foi baseada na modificação da classe, a qual chamamos de Schedule e nela definimos as funções para retornar as informações da mensagem por ID, retornar mensagens pelos valores de sentimento entre os limites e retornar duas mensagens cuja soma de pontuação é igual a um dado parâmetro, caso contrário retornar -1. A solução podes ser acessada a partir de[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week5/Guided_Project_Reddit_Climate_Change_Data.ipynb) 
 
 ## Como executar
-Para executar esse projeto deve-se fazer o dowload do dataset The Reddit Climate Change no Kaggle no link dispobilizado anteriormente. Após isso em um Google Colaboratory execute o nosso notebook de solução[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](), para tal deve ser feito o upload do dataset para uma pasta do Google Drive visto que ele é bem grande
+Para executar esse projeto deve-se fazer o dowload do dataset The Reddit Climate Change no Kaggle no link dispobilizado anteriormente. Após isso em um Google Colaboratory execute o nosso notebook de solução[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week5/Guided_Project_Reddit_Climate_Change_Data.ipynb), para tal deve ser feito o upload do dataset para uma pasta do Google Drive visto que ele é bem grande
 
 ## Referências
 -Dataquest.io</p>
