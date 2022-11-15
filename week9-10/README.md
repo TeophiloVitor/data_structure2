@@ -1,27 +1,48 @@
-# Projeto Guiado Week05
+# Projeto Guiado Week9_10
 
 ## Membros
 1) Fernando Lucas Sousa Silva |  20220080534</p>
 2) Teophilo Vitor de Carvalho Clemente | 20220080516</p>
 
 ## Objetivos
-Adaptar a solução do "Guided Project: Building Fast Queries on a CSV"  para o dataset Kaggle e nela realizar as seguintes implementações:</p>
-1) Dado o id de uma mensagem no Reddit, retorne todas as informações sobre a mensagem</p>
-2) Dado um limite inferior e superior da coluna "sentimento", retornar todas as mensagens com valores de sentimento entre os limites inferior e superior</p>
-3) Dado um valor de parâmetro, retorne duas mensagens cuja soma do valor da coluna "score" seja igual ao parâmetro. Retorna -1 se não existir</p>
-4) Implemente testes com pytest para fins de validação
+Este trabalho tem como objetivo realizar uma análise gráfica de voos dentro do território nacional, nele versaremos 4 análises sobre os dados do aéreos, que são:</p>
+1) Assortatividade</p>
+2) Análise bivariada</p>
+3) Grau de conexões</p>
+4) Análise do caminho mais curto
 
-## Solução original: Guided Project: Building Fast Queries on a CSV
-A solução original a ser adaptada para o Dataset da Kaggle foi disponibilizada pelo Dataquest em seu repositório[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/dataquestio/solutions/blob/master/Mission481Solution.ipynb)</p>
-O Dataset Kaggle está disponível aqui: https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset
+## Solução completa
+O notebook contendo as 4 análises completas acerca do trabalho pode ser acessado aqui[Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week9-10/Trabalho_2_U2_AEDII.ipynb)</p>
 
-## Solução do grupo 
-Nossa solução foi baseada na modificação da classe, a qual chamamos de Schedule e nela definimos as funções para retornar as informações da mensagem por ID, retornar mensagens pelos valores de sentimento entre os limites e retornar duas mensagens cuja soma de pontuação é igual a um dado parâmetro, caso contrário retornar -1. A solução podes ser acessada a partir de[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week5/Guided_Project_Reddit_Climate_Change_Data.ipynb) 
+## Assortatividade
+Nesta parte analisamos a assortividade da rede em questão, ela representa o grau de relacionamento dos nós com eles mesmo e com outros grupos, no nosso caso as regiões do país e seus voos</p>
+Desse modo, para análise geramos um grafo onde é apresentado os relacionamentos entre as regiões, apesar da sua complexidade vemos que os relacionamentos acontecem com mais frequência entre nós de mesma região, o que leva a pensar que está rede tende a ser assortativa, o gráfico gerado está a seguir e também no notebook</p>
+
+Além disso, para verificar a assortividade geramos a matriz de mistura, ao analisá-la vemos que os elementos da diagonal principal tem os maiores valores, mais uma métrica a favor do da rede ser assortativa</p>
+
+Entretanto a métrica que realmente nós confirmou é o cálculo do coeficiente de assortatividade que pode ser visto a seguir e por ser seu valor mostra que a rede é assortiva</p>
+
+
+## Análise bivariada 
+Aqui analisaremos o relacionamento do grau com seus vizinhos,de modo que, os nós de alto grau tendem a se relacionar com outros nós de alto grau, essa é uma red sortiva. Já uam rede dissortiva, o nós de alto grau se relacionam com mais frequência com nós de menor grau</p>
+
+A nossa análise primeiro foi feita em relação ao país inteiro e após para as regiões, a partir dela constatamos que tanto o país como as regiões seguem a mesma linha. Vemos que quando o grau de um dado nó aumenta, o grau da sua vizinhaça tende a dimnuir, ou seja, nós de alto grau estão se relacionando com nós de baixo grau, o que nós mostra um comportamento dissarsortivo, como vemos nas imagens a seguir</p>
+
+Para realizar a comprovação da dissarsortivida geramos o coeficiente de assortatividade de grau e vimos que ele foi negativo, comprovando a nossa tese</p>
+
+## Grau de conexões
+Aqui analisaremos quais compoenetes da rede são conectados, ou seja, através das arestas da rede quem se conecta a quem, de modo a formas subgrafos. A imagem a seguir é da rede total, vemos que ela é bem complexa pois pega todos os dados, porém a seguir faremos uma análise mais minuciosa de dados</p>
+
+A seguir temos o nosso resultado para as conexões por região, no notebook é possível ver a análise completa</p>
+
+## Análise do caminho mais curto
+Aqui nós selecionamos algumas cidades e seus respectivos códigos de acordo com o critério estabelecido pelo professor e vamos encontrar a partir do dataset o caminho mais curto entre elas, ou seja, quantos aeroportos temos que passar para chegar em tal destino. A seguir podemos ver as cidades e os caminhos gerados, o código completo pode ser visto no notebook</p>
 
 ## Como executar
-Para executar esse projeto deve-se fazer o dowload do dataset The Reddit Climate Change no Kaggle no link dispobilizado anteriormente. Após isso em um Google Colaboratory execute o nosso notebook de solução[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week5/Guided_Project_Reddit_Climate_Change_Data.ipynb), para tal deve ser feito o upload do dataset para uma pasta do Google Drive visto que ele é bem grande
+Para executar esse projeto recomendamos que abra um Google Colaboratory e execute o nosso notebook de solução[Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week9-10/Trabalho_2_U2_AEDII.ipynb), basta executar as células na ordem indicada e obterá a solução das 4 implementações   
 
 ## Referências
--Dataquest.io</p>
--Kaggle</p>
--Repositório Professor Ivanovitch
+-Dataset Alvaro [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/alvarofpp/dataset-flights-brazil)
+</p>
+-Repositório Professor Ivanovitch [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/ivanovitchm/datastructure)
+
