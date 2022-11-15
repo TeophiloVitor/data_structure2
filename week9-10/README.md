@@ -20,7 +20,7 @@ Desse modo, para análise geramos um grafo onde é apresentado os relacionamento
 
 <p align='center'><img src='./images/assortatividade.png'></p>
 
-Além disso, para verificar a assortividade geramos a matriz de mistura, ao analisá-la vemos que os elementos da diagonal principal tem os maiores valores, mais uma métrica a favor do da rede ser assortativa</p>
+Além disso, para verificar a assortividade geramos a matriz de mistura, ao analisá-la vemos que os elementos da diagonal principal tem os maiores valores, mais uma métrica a favor da rede ser assortativa</p>
 
 <p align='center'><img src='./images/matriz_mistura.png'></p>
 
@@ -32,7 +32,7 @@ nx.attribute_assortativity_coefficient(G,"region")
 0.3676599700857439
 
 ## Análise bivariada 
-Aqui analisaremos o relacionamento do grau com seus vizinhos,de modo que, os nós de alto grau tendem a se relacionar com outros nós de alto grau, essa é uma red sortiva. Já uam rede dissortiva, o nós de alto grau se relacionam com mais frequência com nós de menor grau</p>
+Aqui analisaremos o relacionamento do grau com seus vizinhos,de modo que, os nós de alto grau tendem a se relacionar com outros nós de alto grau, essa é uma rede sortiva. Já uma rede dissortiva, o nós de alto grau se relacionam com mais frequência com nós de menor grau</p>
 
 A nossa análise primeiro foi feita em relação ao país inteiro e após para as regiões, a partir dela constatamos que tanto o país como as regiões seguem a mesma linha. Vemos que quando o grau de um dado nó aumenta, o grau da sua vizinhaça tende a dimnuir, ou seja, nós de alto grau estão se relacionando com nós de baixo grau, o que nós mostra um comportamento dissarsortivo, como vemos nas imagens a seguir</p>
 
@@ -49,7 +49,7 @@ Norte
 Nordeste
 <p align='center'><img src='./images/grau_assorta_nordeste.png'></p>
 
-Para realizar a comprovação da dissarsortivida geramos o coeficiente de assortatividade de grau e vimos que ele foi negativo, comprovando a nossa tese</p>
+Para realizar a comprovação da dissarsortividade geramos o coeficiente de assortatividade de grau e vimos que ele foi negativo, comprovando a nossa tese</p>
 
 ```python 
 nx.degree_assortativity_coefficient(G)
