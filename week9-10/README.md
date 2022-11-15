@@ -47,14 +47,14 @@ Centro-Oeste
 Norte
 <p align='center'><img src='./images/grau_assorta_norte.png'></p>
 Nordeste
-Valor de assortatividade:  0.3676599700857439
+<p align='center'><img src='./images/grau_assorta_nordeste.png'></p>
 
 Para realizar a comprovação da dissarsortivida geramos o coeficiente de assortatividade de grau e vimos que ele foi negativo, comprovando a nossa tese</p>
 
 ```python 
-print("Valor de assortatividade: ", str(nx.attribute_assortativity_coefficient(G,"region")))
+nx.degree_assortativity_coefficient(G)
 ```
-Valor de assortatividade:  -0.3676599700857439
+-0.19469159153644636
 
 ## Grau de conexões
 Aqui analisaremos quais compoenetes da rede são conectados, ou seja, através das arestas da rede quem se conecta a quem, de modo a formas subgrafos. A imagem a seguir é da rede total, vemos que ela é bem complexa pois pega todos os dados, porém a seguir faremos uma análise mais minuciosa de dados</p>
