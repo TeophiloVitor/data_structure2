@@ -36,17 +36,17 @@ Aqui analisaremos o relacionamento do grau com seus vizinhos,de modo que, os nó
 
 A nossa análise primeiro foi feita em relação ao país inteiro e após para as regiões, a partir dela constatamos que tanto o país como as regiões seguem a mesma linha. Vemos que quando o grau de um dado nó aumenta, o grau da sua vizinhaça tende a dimnuir, ou seja, nós de alto grau estão se relacionando com nós de baixo grau, o que nós mostra um comportamento dissarsortivo, como vemos nas imagens a seguir:</p>
 
-#País
+-País
 <p align='center'><img src='./images/grau_assorta.png'></p>
-#Sul
+-Sul
 <p align='center'><img src='./images/grau_assorta_sul.png'></p>
-#Sudeste
+-Sudeste
 <p align='center'><img src='./images/grau_assorta_sudeste.png'></p>
-#Centro-Oeste
+-Centro-Oeste
 <p align='center'><img src='./images/grau_assorta_centro.png'></p>
-#Norte
+-Norte
 <p align='center'><img src='./images/grau_assorta_norte.png'></p>
-#Nordeste
+-Nordeste
 <p align='center'><img src='./images/grau_assorta_nordeste.png'></p>
 
 Para realizar a comprovação da dissarsortividade geramos o coeficiente de assortatividade de grau e vimos que ele foi negativo, comprovando a nossa tese.</p>
