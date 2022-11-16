@@ -49,7 +49,7 @@ A nossa análise primeiro foi feita em relação ao país inteiro e após para a
 -Nordeste
 <p align='center'><img src='./images/grau_assorta_nordeste.png'></p>
 
-Para realizar a comprovação da dissarsortividade geramos o coeficiente de assortatividade de grau e vimos que ele foi negativo, comprovando a nossa tese.</p>
+Para realizar a comprovação da dissortividade geramos o coeficiente de assortatividade de grau e vimos que ele foi negativo, comprovando a nossa tese.</p>
 
 ```python 
 nx.degree_assortativity_coefficient(G)
