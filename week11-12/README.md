@@ -5,7 +5,7 @@
 2) Teophilo Vitor de Carvalho Clemente | 20220080516</p>
 
 ## Objetivo 
-Este penúltimo projeto da disciplina tem por objetivo a análise e construção de uma rede com base em um página da wikipédia. Escolhemos para isso, a página wikipedia de Currais Novos, cidade que nós componentes do grupo, nascemos. 
+Este penúltimo projeto da disciplina tem por objetivo a análise e construção de uma rede com base em um página da wikipédia. Escolhemos para isso, a página wikipedia de Currais Novos, cidade que nós componentes do grupo, nascemos. Para melhor visualização desse README recomendamos usar o GitHub com o fundo branco. 
 
 <p align='center'><img src='./images/currais_praca.jpeg'></p>
 
