@@ -76,7 +76,6 @@ Para executar esse projeto recomendamos que abra um Google Colaboratory e execut
 -Página Currais Novos no wikipedia [[Link]](https://pt.wikipedia.org/wiki/Currais_Novos)</p>
 -Repositório Professor Ivanovitch[![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/ivanovitchm/datastructure)
 
-
-
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC97X8R9oD4D-F3BjerF2W9w/videos)
 
 
