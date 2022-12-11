@@ -60,7 +60,7 @@ A seguir foi plotado o Gráfico de densidade cumulativa, ele indica a porcentage
 
 <p align='center'><img src='./images/grafico_cdf.png'></p>
 
-Para efeito de comparação, agora é plotado um gráfico com todas as métricas. Como vemos, devido a termos usado somente às relações com grau maior que 8, notamos em todas as métricas uma simetria positiva e com comportamento geral com  grau pequeno como podemos ver a seguir:
+Para efeito de comparação, agora é plotado um gráfico com todas as métricas. Como vemos, devido a termos usado somente às relações com grau maior que 8 em alguns gráficos vemos poucos pontos, mas que nos permitiram analisar os comportamentos. Notamos uma simetria com uma cauda à direita no betwenness, ou seja uma simetria positiva, já nas outras métricas a simetria tendeu a ser normal, temos um comportamento geral de crescimento ao passo que o outro cresce, entretando temos concentração de resultados em alguns pontos como podemos ver a seguir:
 
 <p align='center'><img src='./images/graficos_metricas_resumo.png'></p>
 
