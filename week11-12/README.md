@@ -11,7 +11,9 @@ Este penúltimo projeto da disciplina tem por objetivo a análise e construção
 
 ## Solução
 
-O notebook contendo todos os códigos produzidos e as análises completas acerca do trabalho pode ser acessado aqui[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb)</p>
+O notebook contendo todos os códigos produzidos e as análises completas acerca do trabalho pode ser acessado a seguir [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb)</p>
+
+Além disso, o vídeo explicando os resultados e desenvolvimento do projeto pode ser acessado a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC97X8R9oD4D-F3BjerF2W9w/videos)</p>
 
 Para o desenvolvimento do projeto foram utilizadas as seguintes bibliotecas: nxviz, networkx, wikipedia, pandas, matplotlib e outras. Dado isso, foi feito o processamento dos dados a serem trabalhados, posteriormente, feitas as análises pedidas para o projeto com as dadas visualizações por gráficos como veremos ao longo desta explicação.
 
@@ -70,12 +72,8 @@ A decomposição do núcleo tem relação direta à hierarquia de núcleos, para
 
 ## Como executar 
 
-Para executar esse projeto recomendamos que abra um Google Colaboratory e execute o nosso notebook de solução[![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb), basta executar as células na ordem indicada e obterá a solução aqui visualizada.
+Para executar esse projeto recomendamos que abra um Google Colaboratory e execute o nosso notebook de solução [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb), basta executar as células na ordem indicada e obterá a solução aqui visualizada.
 
 ## Referências
 -Página Currais Novos no wikipedia [[Link]](https://pt.wikipedia.org/wiki/Currais_Novos)</p>
--Repositório Professor Ivanovitch[![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/ivanovitchm/datastructure)
-
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC97X8R9oD4D-F3BjerF2W9w/videos)
-
-
+-Repositório Professor Ivanovitch [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/ivanovitchm/datastructure)
