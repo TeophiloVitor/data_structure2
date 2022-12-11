@@ -13,7 +13,7 @@ Este penúltimo projeto da disciplina tem por objetivo a análise e construção
 
 O notebook contendo todos os códigos produzidos e as análises completas acerca do trabalho pode ser acessado a seguir [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb)</p>
 
-Além disso, o vídeo explicando os resultados e desenvolvimento do projeto pode ser acessado a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC97X8R9oD4D-F3BjerF2W9w/videos)</p>
+Além disso, o vídeo explicando os resultados e desenvolvimento do projeto pode ser acessado a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/YAFYkW-f3VA)</p>
 
 Para o desenvolvimento do projeto foram utilizadas as seguintes bibliotecas: nxviz, networkx, wikipedia, pandas, matplotlib e outras. Dado isso, foi feito o processamento dos dados a serem trabalhados, posteriormente, feitas as análises pedidas para o projeto com as dadas visualizações por gráficos como veremos ao longo desta explicação.
 
