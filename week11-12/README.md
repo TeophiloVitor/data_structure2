@@ -116,7 +116,7 @@ Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é be
 
 <p align='center'><img src='./images/gephisto_final.png'></p>
 
-Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o graphml já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também comtemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da cidade de Currais Novos.</p> 
+Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o graphml já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também contemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da cidade de Currais Novos.</p> 
 
 ## Visualização utilizando a ferramenta Retina
 
