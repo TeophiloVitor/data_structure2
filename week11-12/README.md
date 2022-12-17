@@ -95,8 +95,8 @@ Grupo 4: 4 membros</p>
 
 O grupo 1 que possui mais membros é referente aos nós mais genéricos, com grau menor, já os grupos 2, 3 e 4 são referentes aos nós de maior grau ou mais relevantes. Como resultado dessa divisão em grupos e com as filtragens obtemos a seguinte visualização da rede e que também pode ser vista na visualização interativa que pode ser acessada a seguir:</p>
 
-Página de visualização Gephi [[LINK]](https://nandolucas.github.io/CurraisNovos_Network/network/)</p>
-.
+🔭 Página de visualização Gephi [[LINK]](https://nandolucas.github.io/CurraisNovos_Network/network/)</p>
+
 <p align='center'><img src='./images/gephi_final.png'></p>
 
 ## Visualização com o Gephisto
