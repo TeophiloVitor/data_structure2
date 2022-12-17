@@ -112,7 +112,7 @@ Como resultado dessa divisão em grupos em que temos o destaque dos principais n
 
 ## Visualização com o Gephisto
 
-Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é bem simples e de fácil interação, para executarmos ela apenas carregamos o arquivo [[currais_novos_network]]() obtido do gephi, visto que, nele já temos a rede tratada e com o modelo definido, e em seguida foi fornecida a seguinte visualização:</p> 
+Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é bem simples e de fácil interação, para executarmos ela apenas carregamos o arquivo [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) obtido do gephi, visto que, nele já temos a rede tratada e com o modelo definido, e em seguida foi fornecida a seguinte visualização:</p> 
 
 <p align='center'><img src='./images/gephisto_final.png'></p>
 
@@ -120,9 +120,9 @@ Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já q
 
 ## Visualização utilizando a ferramenta Retina
 
-A última ferramenta de visualização que vamos utilizar é o Retina, ela é uma ferramenta advinda do próprio gephi e permite visualizarmos a rede de forma bem interativa. Ela é bem simples de se utilizar, basta realizar o upload do arquivo [[currais_novos_network]]() e ela gera a visualização segundo as métricas que selecionarmos.</p> 
+A última ferramenta de visualização que vamos utilizar é o Retina, ela é uma ferramenta advinda do próprio gephi e permite visualizarmos a rede de forma bem interativa. Ela é bem simples de se utilizar, basta realizar o upload do arquivo [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) e ela gera a visualização segundo as métricas que selecionarmos.</p> 
 
-No vídeo a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](h), explicamos as métricas que escolhemos e seus resultados de visualização.</p> 
+No vídeo a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lsPC0c_QaZk) explicamos as métricas que escolhemos e seus resultados de visualização.</p> 
 
 ## Referências
 -Página Currais Novos no wikipedia [[Link]](https://pt.wikipedia.org/wiki/Currais_Novos)</p>
