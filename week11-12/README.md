@@ -1,4 +1,4 @@
-# 🔎 Rede Wikipedia de Currais Novos 
+# 💡 Rede Wikipedia de Currais Novos 
 
 ## Membros
 1) Fernando Lucas Sousa Silva |  20220080534</p>
@@ -74,7 +74,7 @@ A decomposição do núcleo tem relação direta à hierarquia de núcleos, para
 
 Para executar esse projeto recomendamos que abra um Google Colaboratory e execute o nosso notebook de solução [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb), basta executar as células na ordem indicada e obterá a solução aqui visualizada.
 
-# 🔎 Continuação - Projeto unidade 3
+# 💡 Continuação - Projeto unidade 3
 
 ## Visualização da rede de Currais Novos
 
@@ -84,9 +84,9 @@ Para o projeto da terceira unidade daremos continuidade a visualização da rede
 
 No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais relevantes para aquela análise, com isso ficamos com uma rede pequena com `12 nós e 68 arestas`, para essa continuação do projeto mudamos a abordagem, e utilizamos grau>2, com isso ficamos com `416 nós e 1465 arestas`, desse modo, temos a rede mais ampla e com mais dados para explorar com as ferramentas e ter uma melhor visualização geral da rede.</p>
 
-Utilizando-se do Gephi importamos o arquivo `cn.graphml` e para melhor visualização escolhemos o layout ForceAtlas 2, posteriormente executamos as métricas como grau de rede, diâmetro, modularidade, coeficiente de autovetor e excentricidade, essa última métrica foi a que escolhemos para construir a nossa comunidade, a qual chamamos de `Community - Eccentricity`, pois ela apresentou uma divisão bem satisfatória para a rede, evidenciando os nós de maior grau no centro do gráfico em detrimento dos menos relevantes nas extremidades.</p>
+Utilizando-se do Gephi importamos o arquivo [[cn_graph]]() e para melhor visualização escolhemos o layout ForceAtlas 2, posteriormente executamos as métricas como grau de rede, diâmetro, modularidade, coeficiente de autovetor e excentricidade, essa última métrica foi a que escolhemos para construir a nossa comunidade, a qual chamamos de `Community - Eccentricity`, pois ela apresentou uma divisão bem satisfatória para a rede, evidenciando os nós de maior grau no centro do gráfico em detrimento dos menos relevantes nas extremidades, o que para nós foi uma visualização bem didática.</p>
 
-Para melhorar mais a visualização da rede usamos a métrica grau para destacar os nós mais importantes, filtramos para graus entre 5 e 11 e com esses resultados nossa rede foi dividida em 4 grupos com seguintes quantidades de membros:</p>
+Além disso, para melhorar mais a visualização da rede usamos a métrica grau para destacar os nós mais importantes, filtramos para graus entre 5 e 11 e com esses resultados nossa rede foi dividida em 4 grupos com seguintes quantidades de membros:</p>
 ``` 
 Grupo 1: 404 membros
 Grupo 2: 6 membros
@@ -120,13 +120,13 @@ Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é be
 
 <p align='center'><img src='./images/gephisto_final.png'></p>
 
-Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o graphml já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também contemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da cidade de Currais Novos.</p> 
+Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também contemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da rede da cidade de Currais Novos.</p> 
 
 ## Visualização utilizando a ferramenta Retina
 
 A última ferramenta de visualização que vamos utilizar é o Retina, ela é uma ferramenta advinda do próprio gephi e permite visualizarmos a rede de forma bem interativa. Ela é bem simples de se utilizar, basta realizar o upload do arquivo [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) e ela gera a visualização segundo as métricas que selecionarmos.</p> 
 
-No vídeo a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lsPC0c_QaZk) explicamos as métricas que escolhemos e seus resultados de visualização.</p> 
+No vídeo a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lsPC0c_QaZk) explicamos as métricas que escolhemos, são elas `Eccentricity, Eigenvector Centrality, Closeness Centrality e Betweenness Centralitye` e seus resultados de visualização.</p> 
 
 ## Referências
 -Página Currais Novos no wikipedia [[Link]](https://pt.wikipedia.org/wiki/Currais_Novos)</p>
