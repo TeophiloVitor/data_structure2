@@ -88,7 +88,7 @@ Utilizando-se do Gephi importamos o arquivo `cn.graphml` e para melhor visualiza
 
 Para melhorar mais a visualização da rede usamos a métrica grau para destacar os nós mais importantes, filtramos para graus entre 5 e 11 e com esses resultados nossa rede foi dividida em 4 grupos com seguintes quantidades de membros:</p>
 ``` 
-Grupo  1: 404 membros
+Grupo 1: 404 membros
 Grupo 2: 6 membros
 Grupo 3: 2 membros
 Grupo 4: 4 membros
