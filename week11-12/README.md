@@ -93,7 +93,18 @@ Grupo 2: 6 membros</p>
 Grupo 3: 2 membros</p>
 Grupo 4: 4 membros</p>
 
-O grupo 1 que possui mais membros é referente aos nós mais genéricos, com grau menor, já os grupos 2, 3 e 4 são referentes aos nós de maior grau ou mais relevantes. Como resultado dessa divisão em grupos e com as filtragens obtemos a seguinte visualização da rede e que também pode ser vista na visualização interativa que pode ser acessada a seguir:</p>
+O grupo 1 que possui mais membros é referente aos nós mais genéricos, com grau menor, já os grupos 2, 3 e 4 são referentes aos nós de maior grau ou mais relevantes, que são os a seguir:</p>
+```
+Brazil
+Rio Grande Do Norte
+Regions Of Brazil
+Northeast Region, Brazil
+Geographic Coordinate System
+States Of Brazil
+Municipalities Of Brazil
+```</p>
+
+Como resultado dessa divisão em grupos em que temos o destaque dos principais nós e com as filtragens obtemos a seguinte visualização da rede e que também pode ser vista na visualização interativa que pode ser acessada a seguir:</p>
 
 ## 🔭 Página de visualização Gephi [[LINK]](https://nandolucas.github.io/CurraisNovos_Network/network/)</p>
 
