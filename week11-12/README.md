@@ -1,4 +1,4 @@
-# Rede Wikipedia de Currais Novos 
+# 🔎 Rede Wikipedia de Currais Novos 
 
 ## Membros
 1) Fernando Lucas Sousa Silva |  20220080534</p>
@@ -74,7 +74,7 @@ A decomposição do núcleo tem relação direta à hierarquia de núcleos, para
 
 Para executar esse projeto recomendamos que abra um Google Colaboratory e execute o nosso notebook de solução [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb), basta executar as células na ordem indicada e obterá a solução aqui visualizada.
 
-# Continuação - Projeto unidade 3
+# 🔎 Continuação - Projeto unidade 3
 
 ## Visualização da rede de Currais Novos
 
@@ -105,7 +105,7 @@ Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é be
 
 <p align='center'><img src='./images/gephisto_final.png'></p>
 
-Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o graphml já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também completou outros nós com menor grau mas que também fazem bastante sentido no contexto da cidade de Currais Novos.</p> 
+Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o graphml já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também comtemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da cidade de Currais Novos.</p> 
 
 ## Visualização utilizando a ferramenta Retina
 
