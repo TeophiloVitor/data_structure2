@@ -101,7 +101,7 @@ O grupo 1 que possui mais membros é referente aos nós mais genéricos, com gra
 
 ## Visualização com o Gephisto
 
-Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é bem simples e de fácil interação, para executarmos ela apenas carregamos o arquivo graphml obtido do ghepi, visto que, nele já temos a rede tratada e com o modelo definido, e em seguida foi fornecida a seguinte visualização:</p> 
+Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é bem simples e de fácil interação, para executarmos ela apenas carregamos o arquivo graphml obtido do gephi, visto que, nele já temos a rede tratada e com o modelo definido, e em seguida foi fornecida a seguinte visualização:</p> 
 
 <p align='center'><img src='./images/gephisto_final.png'></p>
 
