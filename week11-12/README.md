@@ -99,11 +99,15 @@ Brazil
 Rio Grande Do Norte
 Regions Of Brazil
 Northeast Region, Brazil
-Geographic Coordinate System
 States Of Brazil
+Geographic Coordinate System
 Municipalities Of Brazil
+Apertados Canyon
+Currais Novos
+Vicente De Lima
+Flag Of Currais Novos
+Seal Of Currais Novos
 ```
-
 Como resultado dessa divisão em grupos em que temos o destaque dos principais nós e com as filtragens obtemos a seguinte visualização da rede e que também pode ser vista na visualização interativa que pode ser acessada a seguir:</p>
 
 ## 🔭 Página de visualização Gephi [[LINK]](https://nandolucas.github.io/CurraisNovos_Network/network/)</p>
