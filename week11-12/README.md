@@ -87,12 +87,12 @@ No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais rel
 Utilizando-se do Gephi importamos o arquivo `cn.graphml` e para melhor visualização escolhemos o layout ForceAtlas 2, posteriormente executamos as métricas como grau de rede, diâmetro, modularidade, coeficiente de autovetor e excentricidade, essa última métrica foi a que escolhemos para construir a nossa comunidade como pedido no roteiro, pois ela apresentou uma divisão bem satisfatória para a rede, evidenciando os nós de maior grau no centro do gráfico em detrimento dos menos relevantes nas extremidades.</p>
 
 Para melhorar mais a visualização da rede usamos a métrica grau para destacar os nós mais importantes, filtramos para graus entre 5 e 11 e com esses resultados nossa rede foi dividida em 4 grupos com seguintes quantidades de membros:</p>
- 
-Grupo  1: 404 membros</p>
-Grupo 2: 6 membros</p>
-Grupo 3: 2 membros</p>
-Grupo 4: 4 membros</p>
-
+``` 
+Grupo  1: 404 membros
+Grupo 2: 6 membros
+Grupo 3: 2 membros
+Grupo 4: 4 membros
+```
 O grupo 1 que possui mais membros é referente aos nós mais genéricos, com grau menor, já os grupos 2, 3 e 4 são referentes aos nós de maior grau ou mais relevantes, que são os a seguir:</p>
 ```
 Brazil
@@ -102,7 +102,7 @@ Northeast Region, Brazil
 Geographic Coordinate System
 States Of Brazil
 Municipalities Of Brazil
-```</p>
+```
 
 Como resultado dessa divisão em grupos em que temos o destaque dos principais nós e com as filtragens obtemos a seguinte visualização da rede e que também pode ser vista na visualização interativa que pode ser acessada a seguir:</p>
 
