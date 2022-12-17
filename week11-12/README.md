@@ -78,11 +78,11 @@ Para executar esse projeto recomendamos que abra um Google Colaboratory e execut
 
 ## Visualização da rede de Currais Novos
 
-Para o projeto da terceira unidade daremos continuidade a visualização da rede de Currais Novos, desta vez, vamos utilizar outras ferramentas que melhoram a nossa visualização e interpretação dos dados, seriam elas o Gephi e o Gephisto.
+Para o projeto da terceira unidade daremos continuidade a visualização da rede de Currais Novos, desta vez, vamos utilizar outras ferramentas que melhoram a nossa visualização e interpretação dos dados, seriam elas o Gephi, Gephisto e Retina.
 
 ## Visualização com Gephi
 
-No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais relevantes para aquela análise, com isso ficamos com uma rede pequena com `12 nós e 68 arestas`, para essa continuação mudamos a abordagem, e utilizamos grau>2, com isso ficamos com `416 nós e 1465 arestas`, desse modo, temos a rede mais ampla e com mais dados para explorar com as ferramentas e ter uma melhor visualização geral da rede.</p>
+No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais relevantes para aquela análise, com isso ficamos com uma rede pequena com `12 nós e 68 arestas`, para essa continuação do projeto mudamos a abordagem, e utilizamos grau>2, com isso ficamos com `416 nós e 1465 arestas`, desse modo, temos a rede mais ampla e com mais dados para explorar com as ferramentas e ter uma melhor visualização geral da rede.</p>
 
 Utilizando-se do Gephi importamos o arquivo `cn.graphml` e para melhor visualização escolhemos o layout ForceAtlas 2, posteriormente executamos as métricas como grau de rede, diâmetro, modularidade, coeficiente de autovetor e excentricidade, essa última métrica foi a que escolhemos para construir a nossa comunidade como pedido no roteiro, pois ela apresentou uma divisão bem satisfatória para a rede, evidenciando os nós de maior grau no centro do gráfico em detrimento dos menos relevantes nas extremidades.</p>
 
@@ -95,7 +95,7 @@ Grupo 4: 4 membros</p>
 
 O grupo 1 que possui mais membros é referente aos nós mais genéricos, com grau menor, já os grupos 2, 3 e 4 são referentes aos nós de maior grau ou mais relevantes. Como resultado dessa divisão em grupos e com as filtragens obtemos a seguinte visualização da rede e que também pode ser vista na visualização interativa que pode ser acessada a seguir:</p>
 
-🔭 Página de visualização Gephi [[LINK]](https://nandolucas.github.io/CurraisNovos_Network/network/)</p>
+## 🔭 Página de visualização Gephi [[LINK]](https://nandolucas.github.io/CurraisNovos_Network/network/)</p>
 
 <p align='center'><img src='./images/gephi_final.png'></p>
 
