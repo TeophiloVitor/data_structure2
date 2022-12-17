@@ -38,7 +38,7 @@ Através do gráfico também podemos verificar a representação destas conexõe
 
 <p align='center'><img src='./images/garfico_nos-conexao.png'></p>
 
-## Análise das métricas pedidas
+## 🔔 Análise das métricas pedidas
 
 As métricas que serão analisadas são: grau, proximidade, autovetor e intermediação. O grau indica o nó com maior grau de acordo com o número de seus vizinhos. A proximidade  indica a distância ou proximidade média do nó. O autovetor verifica se a vizinhança do nó é importante para a rede. Por último, a intermediação é útil para entendimento de fluxo, ela calcula quantas vezes determinado nó fez parte de um caminho entre dois nós distintos.</p>
 
@@ -46,7 +46,7 @@ A seguir temos a imagem que mostra o resultado para cada métrica, ao lado temos
 
 <p align='center'><img src='./images/graficos_metricas_inico.png'></p>
 
-## Centralidade
+## 🔔 Centralidade
 
 As distribuições de centralidade serão analisadas nos próximos gráficos. Inicialmente vamos analisar o histograma da rede, assim analisaremos o grau de cada nó da rede e com isso, vemos que os nós têm valor de passo distribuído entre 6 e 17 e com um pico no meio.
 
@@ -64,7 +64,7 @@ Para efeito de comparação, agora é plotado um gráfico com todas as métricas
 
 <p align='center'><img src='./images/graficos_metricas_resumo.png'></p>
 
-## Decomposição do Núcleo
+## 🔔 Decomposição do Núcleo
 
 A decomposição do núcleo tem relação direta à hierarquia de núcleos, para isso analisaremos as métricas, k-core e k-shell. O k-core refere-se a uma sub-rede na qual todos nós possuem pelo menos k vizinhos. Outrossim, os nós que são eliminados para atingir um k-core são chamados de shell. As métricas podem ser vistas na figura a seguir, o core em vermelho e o shell em azul e as suas respectivas ligações.
 
@@ -80,7 +80,7 @@ Para executar esse projeto recomendamos que abra um Google Colaboratory e execut
 
 Para o projeto da terceira unidade daremos continuidade a visualização da rede de Currais Novos, desta vez, vamos utilizar outras ferramentas que melhoram a nossa visualização e interpretação dos dados, seriam elas o Gephi, Gephisto e Retina.
 
-## Visualização com Gephi
+## 🔔 Visualização com Gephi
 
 No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais relevantes para aquela análise, com isso ficamos com uma rede pequena com `12 nós e 68 arestas`, para essa continuação do projeto mudamos a abordagem, e utilizamos grau>2, com isso ficamos com `416 nós e 1465 arestas`, desse modo, temos a rede mais ampla e com mais dados para explorar com as ferramentas e ter uma melhor visualização geral da rede.</p>
 
@@ -114,7 +114,7 @@ Como resultado dessa divisão em grupos em que temos o destaque dos principais n
 
 <p align='center'><img src='./images/gephi_final.png'></p>
 
-## Visualização com o Gephisto
+## 🔔 Visualização com o Gephisto
 
 Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é bem simples e de fácil interação, para executarmos ela apenas carregamos o arquivo [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) obtido do gephi, visto que, nele já temos a rede tratada e com o modelo definido, e em seguida foi fornecida a seguinte visualização:</p> 
 
@@ -122,7 +122,7 @@ Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é be
 
 Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também contemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da rede da cidade de Currais Novos.</p> 
 
-## Visualização utilizando a ferramenta Retina
+## 🔔 Visualização utilizando a ferramenta Retina
 
 A última ferramenta de visualização que vamos utilizar é o Retina, ela é uma ferramenta advinda do próprio gephi e permite visualizarmos a rede de forma bem interativa. Ela é bem simples de se utilizar, basta realizar o upload do arquivo [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) e ela gera a visualização segundo as métricas que selecionarmos.</p> 
 
