@@ -76,11 +76,11 @@ Para executar esse projeto recomendamos que abra um Google Colaboratory e execut
 
 ## Continuação - Projeto unidade 3
 
-## Visualização da rede de Currais Novos
+# Visualização da rede de Currais Novos
 
 Para o projeto da terceira unidade daremos continuidade a visualização da rede de Currais Novos, desta vez, vamos utilizar outras ferramentas que melhoram a nossa visualização e interpretação dos dados, seriam elas o Gephi e o Gephisto.
 
-##Visualização com Gephi
+## Visualização com Gephi
 
 No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais relevantes, com isso ficamos com uma rede pequena com `12 nós e 68 arestas`, para essa continuação mudamos a abordagem, e utilizamos grau>2, com isso ficamos com `416 nós e 1465 arestas`, desse modo, temos a rede mais ampla e com mais dados para explorar com as ferramentas e ter uma melhor visualização geral da rede.</p>
 
@@ -99,7 +99,7 @@ Página de visualização Gephi [[LINK]](https://nandolucas.github.io/CurraisNov
 .
 <p align='center'><img src='./images/gephi_final.png'></p>
 
-##Visualização com o Gephisto
+## Visualização com o Gephisto
 
 Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é bem simples e de fácil interação, para executarmos ela apenas carregamos o arquivo graphml obtido do ghepi, visto que, nele já temos a rede tratada e com o modelo definido, e em seguida foi fornecida a seguinte visualização:</p> 
 
@@ -107,7 +107,7 @@ Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é be
 
 Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o graphml já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também completou outros nós com menor grau mas que também fazem bastante sentido no contexto da cidade de Currais Novos.</p> 
 
-##Visualização utilizando a ferramenta Retina
+## Visualização utilizando a ferramenta Retina
 
 A última ferramenta de visualização que vamos utilizar é o Retina, ela é uma ferramenta advinda do próprio gephi e permite visualizarmos a rede de forma bem interativa. Ela é bem simples de se utilizar, basta realizar o upload do arquivo graphml e ela gera a visualização segundo as métricas que selecionarmos.</p> 
 
