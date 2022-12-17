@@ -74,24 +74,24 @@ A decomposição do núcleo tem relação direta à hierarquia de núcleos, para
 
 Para executar esse projeto recomendamos que abra um Google Colaboratory e execute o nosso notebook de solução [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/AEDII_T3U2.ipynb), basta executar as células na ordem indicada e obterá a solução aqui visualizada.
 
-## Continuação - Projeto unidade 3
+# Continuação - Projeto unidade 3
 
-# Visualização da rede de Currais Novos
+## Visualização da rede de Currais Novos
 
 Para o projeto da terceira unidade daremos continuidade a visualização da rede de Currais Novos, desta vez, vamos utilizar outras ferramentas que melhoram a nossa visualização e interpretação dos dados, seriam elas o Gephi e o Gephisto.
 
 ## Visualização com Gephi
 
-No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais relevantes, com isso ficamos com uma rede pequena com `12 nós e 68 arestas`, para essa continuação mudamos a abordagem, e utilizamos grau>2, com isso ficamos com `416 nós e 1465 arestas`, desse modo, temos a rede mais ampla e com mais dados para explorar com as ferramentas e ter uma melhor visualização geral da rede.</p>
+No projeto anterior, utilizamos de grau>8 para filtrar somente os dados mais relevantes para aquela análise, com isso ficamos com uma rede pequena com `12 nós e 68 arestas`, para essa continuação mudamos a abordagem, e utilizamos grau>2, com isso ficamos com `416 nós e 1465 arestas`, desse modo, temos a rede mais ampla e com mais dados para explorar com as ferramentas e ter uma melhor visualização geral da rede.</p>
 
 Utilizando-se do Gephi importamos o arquivo `cn.graphml` e para melhor visualização escolhemos o layout ForceAtlas 2, posteriormente executamos as métricas como grau de rede, diâmetro, modularidade, coeficiente de autovetor e excentricidade, essa última métrica foi a que escolhemos para construir a nossa comunidade como pedido no roteiro, pois ela apresentou uma divisão bem satisfatória para a rede, evidenciando os nós de maior grau no centro do gráfico em detrimento dos menos relevantes nas extremidades.</p>
 
 Para melhorar mais a visualização da rede usamos a métrica grau para destacar os nós mais importantes, filtramos para graus entre 5 e 11 e com esses resultados nossa rede foi dividida em 4 grupos com seguintes quantidades de membros:</p>
  
-Grupo  1: 404 </p>
-Grupo 2: 6</p>
-Grupo 3: 2</p>
-Grupo 4: 4</p>
+Grupo  1: 404 membros</p>
+Grupo 2: 6 membros</p>
+Grupo 3: 2 membros</p>
+Grupo 4: 4 membros</p>
 
 O grupo 1 que possui mais membros é referente aos nós mais genéricos, com grau menor, já os grupos 2, 3 e 4 são referentes aos nós de maior grau ou mais relevantes. Como resultado dessa divisão em grupos e com as filtragens obtemos a seguinte visualização da rede e que também pode ser vista na visualização interativa que pode ser acessada a seguir:</p>
 
