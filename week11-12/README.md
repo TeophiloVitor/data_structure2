@@ -120,7 +120,11 @@ Outra forma de visualizarmos os dados é usando a ferramenta Gephisto, ela é be
 
 <p align='center'><img src='./images/gephisto_final.png'></p>
 
-Pelo gráfico podemos ver a divisão em comunidades, algo que era esperado já que usamos o [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também contemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da rede da cidade de Currais Novos.</p> 
+Pelo gráfico podemos notar pelas conexões alguns grupos, algo que era esperado já que usamos o [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) já tratado no gephi, percebemos o destaque em nós como: Brazil, Regions of Brazil, Northeast Region, States of Brazil e outros que devidamente são os de maior grau na rede e por isso contam com muitas arestas. Além disso, a sua visualização ficou bastante harmoniosa, pois além dos nós acima citados ela também contemplou outros nós com menor grau mas que também fazem bastante sentido no contexto da rede da cidade de Currais Novos.</p> 
+
+<p align='center'><img src='./images/gephisto_2.png'></p>
+
+Por essa outra visualização, vemos um layout diferente do que utilizamos no gephi, porém a coloração do gráfico se baseia na excentricidade como usamos na nossa comunidade. Vemos que ele é rodeado por uma malha azul devido aos nós com excentricidade baixa que é um grupo bem grande como já analisamos no gephi, em locais pontuais vemos as cores verde, pink e vermelho, nessas malhas se encontram os nós com os maiores graus de saída da rede e que como podemos ver tem grande importância para a rede pelas suas conexões.</p> 
 
 ## 🔔 Visualização utilizando a ferramenta Retina
 
