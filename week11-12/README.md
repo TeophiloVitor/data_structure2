@@ -124,11 +124,11 @@ Pelo gráfico podemos notar pelas conexões alguns grupos, algo que era esperado
 
 <p align='center'><img src='./images/gephisto_2.png'></p>
 
-Por essa outra visualização, vemos um layout diferente do que utilizamos no gephi, porém a coloração do gráfico se baseia na excentricidade como usamos na nossa comunidade. Vemos que ele é rodeado por uma malha azul devido aos nós com excentricidade baixa que é um grupo bem grande como já analisamos no gephi, em locais pontuais vemos as cores verde, pink e vermelho, nessas malhas se encontram os nós com os maiores graus de saída da rede e que como podemos ver tem grande importância para a rede pelas suas conexões.</p> 
+Por essa outra visualização, vemos um layout diferente do que utilizamos no gephi, porém a coloração do gráfico se baseia na excentricidade como usamos na nossa comunidade. Vemos que ele é rodeado por uma malha azul devido aos nós com excentricidade baixa que é um grupo bem grande como já analisamos no gephi, em locais pontuais vemos as cores verde, pink e vermelho, nessas malhas se encontram os nós com os maiores graus de saída da rede e que como podemos ver têm grande importância para a rede pelas suas conexões.</p> 
 
 ## 🔔 Visualização utilizando a ferramenta Retina
 
-A última ferramenta de visualização que vamos utilizar é o Retina, ela é uma ferramenta advinda do próprio gephi e permite visualizarmos a rede de forma bem interativa. Ela é bem simples de se utilizar, basta realizar o upload do arquivo [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) e ela gera a visualização segundo as métricas que selecionarmos.</p> 
+A última ferramenta de visualização que vamos utilizar é o Retina, ela é uma ferramenta advinda dos criadores do gephi e permite visualizarmos a rede de forma bem interativa. Ela é bem simples de se utilizar, basta realizar o upload do arquivo [[currais_novos_network]](https://github.com/TeophiloVitor/data_structure2/blob/main/week11-12/currais_novos_network.graphml) e ela gera a visualização segundo as métricas que selecionarmos.</p> 
 
 No vídeo a seguir [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lsPC0c_QaZk) explicamos as métricas que escolhemos, são elas `Eccentricity, Eigenvector Centrality, Closeness Centrality e Betweenness Centralitye` e seus resultados de visualização.</p> 
 
